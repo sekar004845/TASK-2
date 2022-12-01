@@ -1,0 +1,43 @@
+.container{
+	margin:0 auto;
+	width:100%;
+}
+.box{
+	padding:25px;
+	position:absolute;
+	background-color:#808080c7;
+	left:15%;
+	top:80%;
+	bottom:-10%;
+	}
+i:hover{
+	color:blue;
+}
+.image{
+	position:relative;
+}
+.column{
+	display:flex;
+	color:white;
+	}
+.icon{
+	padding:20px;
+}
+h4,p{
+	text-align:center;
+	color:white;
+}
+.box p{
+	font-style:italic;
+}
+h4::after{
+	content:"";
+	position:absolute;
+	display:block;
+	width:50px;
+	height:1px;
+	background-color:white;
+	right:40%;
+	margin-top:10px;
+	
+}
